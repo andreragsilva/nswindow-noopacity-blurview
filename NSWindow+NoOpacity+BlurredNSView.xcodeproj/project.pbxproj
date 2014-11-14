@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1DD38E1A1694080035888A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1DD38D1A1694080035888A /* AppDelegate.m */; };
+		0E1DD3901A1694080035888A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1DD38F1A1694080035888A /* main.m */; };
+		0E1DD3921A1694080035888A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1DD3911A1694080035888A /* Images.xcassets */; };
+		0E1DD3951A1694080035888A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1DD3931A1694080035888A /* MainMenu.xib */; };
+		0E1DD3AC1A16941F0035888A /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1DD3AB1A16941F0035888A /* MainWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1DD3871A1694080035888A /* NSWindow+NoOpacity+BlurredNSView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSWindow+NoOpacity+BlurredNSView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1DD38B1A1694080035888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1DD38C1A1694080035888A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E1DD38D1A1694080035888A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E1DD38F1A1694080035888A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E1DD3911A1694080035888A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E1DD3941A1694080035888A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0E1DD3AA1A16941F0035888A /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		0E1DD3AB1A16941F0035888A /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1DD3841A1694080035888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1DD37E1A1694080035888A = {
+			isa = PBXGroup;
+			children = (
+				0E1DD3891A1694080035888A /* NSWindow+NoOpacity+BlurredNSView */,
+				0E1DD3881A1694080035888A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1DD3881A1694080035888A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1DD3871A1694080035888A /* NSWindow+NoOpacity+BlurredNSView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1DD3891A1694080035888A /* NSWindow+NoOpacity+BlurredNSView */ = {
+			isa = PBXGroup;
+			children = (
+				0E1DD3AA1A16941F0035888A /* MainWindow.h */,
+				0E1DD3AB1A16941F0035888A /* MainWindow.m */,
+				0E1DD38C1A1694080035888A /* AppDelegate.h */,
+				0E1DD38D1A1694080035888A /* AppDelegate.m */,
+				0E1DD3911A1694080035888A /* Images.xcassets */,
+				0E1DD3931A1694080035888A /* MainMenu.xib */,
+				0E1DD38A1A1694080035888A /* Supporting Files */,
+			);
+			path = "NSWindow+NoOpacity+BlurredNSView";
+			sourceTree = "<group>";
+		};
+		0E1DD38A1A1694080035888A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E1DD38B1A1694080035888A /* Info.plist */,
+				0E1DD38F1A1694080035888A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1DD3861A1694080035888A /* NSWindow+NoOpacity+BlurredNSView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1DD3A41A1694090035888A /* Build configuration list for PBXNativeTarget "NSWindow+NoOpacity+BlurredNSView" */;
+			buildPhases = (
+				0E1DD3831A1694080035888A /* Sources */,
+				0E1DD3841A1694080035888A /* Frameworks */,
+				0E1DD3851A1694080035888A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSWindow+NoOpacity+BlurredNSView";
+			productName = "NSWindow+NoOpacity+BlurredNSView";
+			productReference = 0E1DD3871A1694080035888A /* NSWindow+NoOpacity+BlurredNSView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1DD37F1A1694080035888A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "André Silva";
+				TargetAttributes = {
+					0E1DD3861A1694080035888A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E1DD3821A1694080035888A /* Build configuration list for PBXProject "NSWindow+NoOpacity+BlurredNSView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E1DD37E1A1694080035888A;
+			productRefGroup = 0E1DD3881A1694080035888A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1DD3861A1694080035888A /* NSWindow+NoOpacity+BlurredNSView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1DD3851A1694080035888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1DD3921A1694080035888A /* Images.xcassets in Resources */,
+				0E1DD3951A1694080035888A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1DD3831A1694080035888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1DD3901A1694080035888A /* main.m in Sources */,
+				0E1DD38E1A1694080035888A /* AppDelegate.m in Sources */,
+				0E1DD3AC1A16941F0035888A /* MainWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E1DD3931A1694080035888A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1DD3941A1694080035888A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E1DD3A21A1694090035888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0E1DD3A31A1694090035888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0E1DD3A51A1694090035888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindow+NoOpacity+BlurredNSView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1DD3A61A1694090035888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSWindow+NoOpacity+BlurredNSView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1DD3821A1694080035888A /* Build configuration list for PBXProject "NSWindow+NoOpacity+BlurredNSView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1DD3A21A1694090035888A /* Debug */,
+				0E1DD3A31A1694090035888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1DD3A41A1694090035888A /* Build configuration list for PBXNativeTarget "NSWindow+NoOpacity+BlurredNSView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1DD3A51A1694090035888A /* Debug */,
+				0E1DD3A61A1694090035888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1DD37F1A1694080035888A /* Project object */;
+}
